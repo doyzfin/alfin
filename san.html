@@ -1,0 +1,255 @@
+
+    <html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Tugas 3</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+		<body>
+			<script>
+				var Judul = ["NO","NAMA SISWA","TUGAS","UTS","UAS","NA","GRADE"];
+				var No = [1,2,3,4,5];
+				var Nama = ["Asep","Iwan","Cepi","Agus","Dadang"];
+          
+				var Tugas = [80,75,70,65,60];
+        
+				var Uts = [95,75,80,40,70];
+				var Uas = [85,90,90,55,60];
+        let na0 = 0.4*Tugas[0] + 0.3*Uts[0] + 0.3*Uas[0]
+        let na1 = 0.4*Tugas[1] + 0.3*Uts[1] + 0.3*Uas[1] 
+        let na2 = 0.4*Tugas[2] + 0.3*Uts[2] + 0.3*Uas[2]
+        let na3 = 0.4*Tugas[3] + 0.3*Uts[3] + 0.3*Uas[3]
+        let na4 = 0.4*Tugas[4] + 0.3*Uts[4] + 0.3*Uas[4]
+			</script>
+			<table border="2">
+				<tr>
+					<td>
+						<script>
+						document.write(Judul[0]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[5]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Judul[6]);
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<script>
+						document.write(No[0]);
+						</script>
+					<td>
+						<script>
+						document.write(Nama[0]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Tugas[0]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uts[0]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uas[0]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(na0);
+            
+						</script>
+					</td>
+					<td>
+						<script>
+						if (  na0 <=49){
+              document.write('E')
+            } else if (   na0 <= 60) {
+              document.write('D')
+            } else if (  na0 <= 70){
+              document.write('C')
+            }else if (  na0 <= 80){
+              document.write('B')
+            }else if (  na0 <= 100){
+              document.write('A')
+            }
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<script>
+						document.write(No[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Nama[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Tugas[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uts[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uas[1]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(na1);
+						</script>
+					</td>
+          <td>
+            <script>
+              if ( na1 <=49){
+              document.write('E')
+            } else if ( na1  <= 60) {
+              document.write('D')
+            } else if ( na1  < 70){
+              document.write('C')
+            }else if ( na1 <= 80){
+              document.write('B')
+            }else if (  na1 <= 100){
+              document.write('A')
+            }
+            </script>
+          </td>
+				</tr>
+				<tr>
+					<td>
+						<script>
+						document.write(No[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Nama[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Tugas[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uts[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uas[2]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(0.4*Tugas[2] + 0.3*Uts[2] + 0.3*Uas[2]);
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<script>
+						document.write(No[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Nama[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Tugas[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uts[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uas[3]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(0.4*Tugas[3] + 0.3*Uts[3] + 0.3*Uas[3]);
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<script>
+						document.write(No[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Nama[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Tugas[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uts[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(Uas[4]);
+						</script>
+					</td>
+					<td>
+						<script>
+						document.write(0.4*Tugas[4] + 0.3*Uts[4] + 0.3*Uas[4]);
+						</script>
+					</td>
+				</tr>
+		</body>
+  </script>
+</html>
